@@ -10,6 +10,7 @@ $(document).ready(function(){
             cep = cep.replace("-", "");
             var urlStr = "https://viacep.com.br/ws/"+ cep +"/json/";
          
+            // fiz uma alteração de teste 
        
             $.ajax({
                 url : urlStr,
